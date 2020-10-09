@@ -1,0 +1,48 @@
+common_name,scientific_name,max_size,temp_low,temp_high,ph_low,ph_high,min_tank,aggressive,schooling,min_group,tank_level,lifespan
+Angelfish - Zebra,Pterophyllum Scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10
+Angelfish - Marble,Pterophyllum Scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10
+Angelfish - Albino,Pterophyllum Scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10
+Angelfish - Black Lace,Pterophyllum Scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10
+Angelfish - Gold,Pterophyllum Scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10
+Angelfish - Blushing,Pterophyllum Scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10
+Angelfish - Koi,Pterophyllum Scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10
+Barb - Black Ruby,Puntius nigrofasciatus,2.5,72,79,6,6.5,20,FALSE,TRUE,6,mid-bottom,5
+Barb - Gold/Chinese,Puntius semifasciolatus,3,64,75,6,8,20,FALSE,TRUE,6,mid-bottom,5
+Barb - Cherry,Puntius titteya,2,73,81,6,8,20,FALSE,TRUE,6,mid-bottom,5
+Barb - Odessa,Pethia padamya,2,75,78,6,7.5,20,FALSE,TRUE,6,mid,5
+Barb - Rosy,Puntius conchonius,6,64,72,6.5,6.5,30,FALSE,TRUE,6,top-mid-bottom,5
+Barb - Tiger,Puntigrus tetrazona,3,68,79,6.5,6.5,20,TRUE,TRUE,6,mid,6
+Betta,Betta splendens,3,75,80,6,7.5,5,TRUE,FALSE,1,top-mid,3
+Bichir - Albino Senegal,Polypterus senegalus,12,77,80,6.5,7.5,90,TRUE,FALSE,1,bottom,10
+Bichir - Senegal/Dinosaur/Gray,Polypterus senegalus,12,77,80,6.5,7.5,90,TRUE,FALSE,1,bottom,10
+Corydora - Bronze/Green,Corydoras aeneus,2.5,72,78,6,8,10,FALSE,TRUE,5,bottom,3
+Corydora - Julii,Corydoras julii,2.5,73,79,6.5,7.8,10,FALSE,TRUE,5,bottom,10
+Corydora - Panda,Corydoras panda,2,68,77,6,7,10,FALSE,TRUE,5,bottom,10
+Corydora - Pepper,Corydoras paleatus,3,72,78,6,7,15,FALSE,TRUE,5,bottom,5
+Corydora - Pygmy,Corydoras pygmaeus,1,72,79,6,8,10,FALSE,TRUE,5,bottom,3
+Danio - Leopard,Danio frankei,2,70,78,7,7.8,10,FALSE,TRUE,6,top-mid-bottom,5
+Danio - Zebra,Danio rerio,2,70,78,6.5,7,10,FALSE,TRUE,6,top-mid-bottom,5
+Danio - Pearl,Danio albolineatus,2,64,74,6.5,7,10,FALSE,TRUE,6,top-mid-bottom,5
+Danio - Gold,Danio rerio,2,64,74,6.5,7,10,FALSE,TRUE,6,top-mid-bottom,5
+Danio - Blue,Danio kerri,2,64,74,6.5,7,10,FALSE,TRUE,6,top-mid-bottom,5
+Danio - Giant,Devario aequipinnatus,4,64,74,6.5,7,30,FALSE,TRUE,6,top-mid-bottom,5
+Goldfish - Common,Carassius auratus,12,65,78,6.5,7.5,30,FALSE,FALSE,1,mid,10
+Gourami - Dwarf,Trichogaster Ialius,2,72,82,6,7.5,5,TRUE,FALSE,1,top-mid,4
+Gourami - Pearl,Trichopodus leerii,4.5,77,82,5.5,7.5,40,FALSE,TRUE,3,top-mid,4
+Gourami - Honey,Trichogaster chuna,2,72,82,6,7.5,30,FALSE,TRUE,3,top-mid,5
+Gourami - Three Spot,Trichopodus trichopterus,5,72,82,5.5,8.5,30,TRUE,FALSE,1,top-mid,5
+Gourami - Kissing,Helostoma temminkii,12,72,82,6,8,75,TRUE,FALSE,1,top-mid,7
+Gourami - Banded,Trichogaster fasciata,4,70,82,6,7.5,20,FALSE,FALSE,1,top-mid,7
+Guppy - Common,Poecilia reticulata,1.5,72,79,6.7,8.5,5,FALSE,TRUE,3,top-mid,2
+Guppy - Endler,Poecilia wingei,1,72,79,6.7,8.5,5,FALSE,TRUE,3,top-mid,2
+Jack Dempsey,Rocio octofasciata,10,75,80,6,8,55,TRUE,FALSE,1,mid-bottom,10
+Loach - Kuhli,Pangio kuhlii,4,,,,,,FALSE,TRUE,4,,
+Loach - Yoyo,Botia lohachata,5,,,,,,,,,,
+Minnow - White Cloud Mountain,Tanichthys alboneubes,1.5,64,72,6,8,10,FALSE,TRUE,6,top-mid-bottom,5
+Oscar,Astronotus ocellatus,16,,,,,75,TRUE,FALSE,1,mid,
+Pleco - Bristlenose,Ancistrus sp.,5,73,81,5.8,7.8,40,FALSE,FALSE,,bottom,
+Ram - Bolivian,Mikrogeophagus altispinosus,,72,79,7,8,,,,,,
+Rasbora - Harlequin,Trigonostigma heteromorpha,2,,,,,,,,,,
+Tetra - Black Skirt/Black Widow,Gymnocorymbus ternetzi,2,68,79,6,8,10,FALSE,TRUE,,,5
+Tetra - Cardinal,Paracheirodon axelrodi,2,,,,,,,,,,
+Tetra - Neon,Paracheirodon innesi,1,,,,,,,,,,
