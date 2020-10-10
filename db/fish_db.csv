@@ -1,38 +1,126 @@
-common_name,scientific_name,max_size,temp_low,temp_high,ph_low,ph_high,min_tank,aggressive,schooling,min_group,tank_level,lifespan
-Angelfish - Zebra,Pterophyllum Scalare,6,75,84,6,7.5,55,1,0,1,mid,10
-Angelfish - Marble,Pterophyllum Scalare,6,75,84,6,7.5,55,1,0,1,mid,10
-Angelfish - Albino,Pterophyllum Scalare,6,75,84,6,7.5,55,1,0,1,mid,10
-Angelfish - Black Lace,Pterophyllum Scalare,6,75,84,6,7.5,55,1,0,1,mid,10
-Angelfish - Gold,Pterophyllum Scalare,6,75,84,6,7.5,55,1,0,1,mid,10
-Angelfish - Blushing,Pterophyllum Scalare,6,75,84,6,7.5,55,1,0,1,mid,10
-Angelfish - Koi,Pterophyllum Scalare,6,75,84,6,7.5,55,1,0,1,mid,10
-Barb - Black Ruby,Puntius nigrofasciatus,2.5,72,79,6,6.5,20,0,1,6,mid-bottom,5
-Barb - Gold/Chinese,Puntius semifasciolatus,3,64,75,6,8,20,0,1,6,mid-bottom,5
-Barb - Cherry,Puntius titteya,2,73,81,6,8,20,0,1,6,mid-bottom,5
-Barb - Odessa,Pethia padamya,2,75,78,6,7.5,20,0,1,6,mid,5
-Barb - Rosy,Puntius conchonius,6,64,72,6.5,6.5,30,0,1,6,top-mid-bottom,5
-Barb - Tiger,Puntigrus tetrazona,3,68,79,6.5,6.5,20,1,1,6,mid,6
-Betta,Betta splendens,3,75,80,6,7.5,5,1,0,1,top-mid,3
-Bichir - Albino Senegal,Polypterus senegalus,12,77,80,6.5,7.5,90,1,0,1,bottom,10
-Bichir - Senegal/Dinosaur/Gray,Polypterus senegalus,12,77,80,6.5,7.5,90,1,0,1,bottom,10
-Corydora - Bronze/Green,Corydoras aeneus,2.5,72,78,6,8,10,0,1,5,bottom,3
-Corydora - Julii,Corydoras julii,2.5,73,79,6.5,7.8,10,0,1,5,bottom,10
-Corydora - Panda,Corydoras panda,2,68,77,6,7,10,0,1,5,bottom,10
-Corydora - Pepper,Corydoras paleatus,3,72,78,6,7,15,0,1,5,bottom,5
-Corydora - Pygmy,Corydoras pygmaeus,1,72,79,6,8,10,0,1,5,bottom,3
-Danio - Leopard,Danio frankei,2,70,78,7,7.8,10,0,1,6,top-mid-bottom,5
-Danio - Zebra,Danio rerio,2,70,78,6.5,7,10,0,1,6,top-mid-bottom,5
-Danio - Pearl,Danio albolineatus,2,64,74,6.5,7,10,0,1,6,top-mid-bottom,5
-Danio - Gold,Danio rerio,2,64,74,6.5,7,10,0,1,6,top-mid-bottom,5
-Danio - Blue,Danio kerri,2,64,74,6.5,7,10,0,1,6,top-mid-bottom,5
-Danio - Giant,Devario aequipinnatus,4,64,74,6.5,7,30,0,1,6,top-mid-bottom,5
-Goldfish - Common,Carassius auratus,12,65,78,6.5,7.5,30,0,0,1,mid,10
-Gourami - Dwarf,Trichogaster Ialius,2,72,82,6,7.5,5,1,0,1,top-mid,4
-Gourami - Pearl,Trichopodus leerii,4.5,77,82,5.5,7.5,40,0,1,3,top-mid,4
-Gourami - Honey,Trichogaster chuna,2,72,82,6,7.5,30,0,1,3,top-mid,5
-Gourami - Three Spot,Trichopodus trichopterus,5,72,82,5.5,8.5,30,1,0,1,top-mid,5
-Gourami - Kissing,Helostoma temminkii,12,72,82,6,8,75,1,0,1,top-mid,7
-Gourami - Banded,Trichogaster fasciata,4,70,82,6,7.5,20,0,0,1,top-mid,7
-Guppy - Common,Poecilia reticulata,1.5,72,79,6.7,8.5,5,0,1,3,top-mid,2
-Guppy - Endler,Poecilia wingei,1,72,79,6.7,8.5,5,0,1,3,top-mid,2
-Jack Dempsey,Rocio octofasciata,10,75,80,6,8,55,1,0,1,mid-bottom,10
+common_name,scientific_name,max_size,temp_low,temp_high,ph_low,ph_high,min_tank,aggressive,schooling,min_group,tank_level,lifespan,image_link
+Acara - Electric Blue,Andinoacara pulcher,7,68,82,6,7.5,30,FALSE,FALSE,1,mid-bottom,10,https://iili.io/24aJV9.jpg
+Angelfish - Albino,Pterophyllum scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10,https://iili.io/2gWlOG.png
+Angelfish - Black Lace,Pterophyllum scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10,https://iili.io/2gWEx4.png
+Angelfish - Blushing,Pterophyllum scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10,https://iili.io/2gWGWl.png
+Angelfish - Gold,Pterophyllum scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10,https://iili.io/2gW0bf.png
+Angelfish - Koi,Pterophyllum scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10,https://iili.io/2gWMs2.png
+Angelfish - Marble,Pterophyllum scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10,https://iili.io/2gWWfS.png
+Angelfish - Zebra,Pterophyllum scalare,6,75,84,6,7.5,55,TRUE,FALSE,1,mid,10,https://iili.io/2gWX07.png
+Barb - Black Ruby,Puntius nigrofasciatus,2.5,72,79,6,6.5,20,FALSE,TRUE,6,mid-bottom,5,https://iili.io/24lOP9.png
+Barb - Cherry,Puntius titteya,2,73,81,6,8,20,FALSE,TRUE,6,mid-bottom,5,https://iili.io/24aqHx.jpg
+Barb - Gold/Chinese,Puntius semifasciolatus,3,64,75,6,8,20,FALSE,TRUE,6,mid-bottom,5,https://iili.io/24aFcb.jpg
+Barb - Odessa,Pethia padamya,2,75,78,6,7.5,20,FALSE,TRUE,6,mid,5,https://iili.io/24aKSj.jpg
+Barb - Rosy,Puntius conchonius,6,64,72,6.5,6.5,30,FALSE,TRUE,6,top-mid-bottom,5,https://iili.io/24a3Ku.jpg
+Barb - Tiger,Puntigrus tetrazona,3,68,79,6.5,6.5,20,TRUE,TRUE,6,mid,6,https://iili.io/24aRUJ.jpg
+Betta,Betta splendens,3,75,80,6,7.5,5,TRUE,FALSE,1,top-mid,3,https://iili.io/24aBAQ.jpg
+Bichir - Albino Senegal,Polypterus senegalus,12,77,80,6.5,7.5,90,TRUE,FALSE,1,bottom,10,https://iili.io/24azV1.jpg
+Bichir - Senegal/Dinosaur/Gray,Polypterus senegalus,12,77,80,6.5,7.5,90,TRUE,FALSE,1,bottom,10,https://iili.io/24aCNV.jpg
+Corydora - Bronze/Green,Corydoras aeneus,2.5,72,78,6,8,10,FALSE,TRUE,5,bottom,3,https://iili.io/24axoP.jpg
+Corydora - Julii,Corydoras julii,2.5,73,79,6.5,7.8,10,FALSE,TRUE,5,bottom,10,https://iili.io/24aIiF.jpg
+Corydora - Panda,Corydoras panda,2,68,77,6,7,10,FALSE,TRUE,5,bottom,10,https://iili.io/24auKg.jpg
+Corydora - Peppered,Corydoras paleatus,3,72,78,6,7,15,FALSE,TRUE,5,bottom,5,https://iili.io/24aAla.jpg
+Corydora - Pygmy,Corydoras pygmaeus,1,72,79,6,8,10,FALSE,TRUE,5,bottom,3,https://iili.io/24anDB.jpg
+Danio - Blue,Danio kerri,2,64,74,6.5,7,10,FALSE,TRUE,6,top-mid-bottom,5,https://iili.io/24aEiX.png
+Danio - Giant,Devario aequipinnatus,4,64,74,6.5,7,30,FALSE,TRUE,6,top-mid-bottom,5,https://iili.io/24aYRR.jpg
+Danio - Gold,Danio rerio,2,64,74,6.5,7,10,FALSE,TRUE,6,top-mid-bottom,5,https://iili.io/24a7Hv.jpg
+Danio - Leopard,Danio frankei,2,70,78,7,7.8,10,FALSE,TRUE,6,top-mid-bottom,5,https://iili.io/24aaNp.jpg
+Danio - Pearl,Danio albolineatus,2,64,74,6.5,7,10,FALSE,TRUE,6,top-mid-bottom,5,https://iili.io/24a0xI.png
+Danio - Zebra,Danio rerio,2,70,78,6.5,7,10,FALSE,TRUE,6,top-mid-bottom,5,https://iili.io/24acDN.jpg
+Danio - Celestial Pearl,Danio margaritatus,1,72,79,6.5,7.5,10,FALSE,TRUE,6,md-bottom,3,https://iili.io/24a1Vt.png
+Eartheater - Geophagus Altifrons,Geophagus altifrons,9,70,82,5,8,100,FALSE,TRUE,4,mid-bottom,10,https://iili.io/24aVls.jpg
+Eartheater - Pearl Cichlid,Geophagus brasiliensis,10,70,82,5,8,100,FALSE,TRUE,4,mid-bottom,10,https://iili.io/24aMfn.jpg
+Eartheater - Red Head Tapajos,Geophagus sp.,6,70,82,5,8,75,FALSE,TRUE,4,mid-bottom,10,https://iili.io/24aWUG.jpg
+Eartheater - Red Hump,Geophagus steindachneri,6,70,82,5,8,75,FALSE,TRUE,4,mid-bottom,10,https://iili.io/24ahJf.png
+Goldfish - Common,Carassius auratus,12,65,78,6.5,7.5,30,FALSE,FALSE,1,top-mid-bottom,10,https://iili.io/24awOl.jpg
+Goldfish - Black Moor,Carassius auratus,8,65,78,6.5,7.5,20,FALSE,FALSE,1,top-mid-bottom,10,https://iili.io/24ajR4.jpg
+Goldfish - Fantail,Carassius auratus,8,65,78,6.5,7.5,20,FALSE,FALSE,1,top-mid-bottom,10,https://iili.io/24aexS.png
+Gourami - Banded,Trichogaster fasciata,4,70,82,6,7.5,20,FALSE,FALSE,1,top-mid,4,https://iili.io/24aNb2.jpg
+Gourami - Dwarf,Trichogaster Ialius,2,72,82,6,7.5,5,TRUE,FALSE,1,top-mid,4,https://iili.io/24akW7.jpg
+Gourami - Honey,Trichogaster chuna,2,72,82,6,7.5,30,FALSE,TRUE,3,top-mid,5,https://iili.io/24aSfe.png
+Gourami - Kissing,Helostoma temminkii,12,72,82,6,8,75,TRUE,FALSE,1,top-mid,7,https://iili.io/24avs9.jpg
+Gourami - Pearl,Trichopodus leerii,4.5,77,82,5.5,7.5,40,FALSE,TRUE,3,top-mid,4,https://iili.io/24aU0u.jpg
+Gourami - Three Spot,Trichopodus trichopterus,5,72,82,5.5,8.5,30,TRUE,FALSE,1,top-mid,5,https://iili.io/24agUb.jpg
+Guppy - Fancy,Poecilia reticulata,1.5,72,79,6.7,8.5,5,FALSE,TRUE,3,top-mid,2,https://iili.io/24a65x.png
+Guppy - Endler,Poecilia wingei,1,72,79,6.7,8.5,5,FALSE,TRUE,3,top-mid,2,https://iili.io/24a4Jj.png
+Hatchetfish - Marbled,Carnegiella strigata,1,75,82,5,8,10,FALSE,TRUE,6,top,5,https://iili.io/24aPOQ.jpg
+Hatchetfish - Silver,Gasteropelecus sternicla,2.5,74,81,6,7,20,FALSE,TRUE,6,top,5,https://iili.io/24aibV.jpg
+Hatchetfish - Spotted,Gasteropelecus maculatus,2,72,82,6,7,10,FALSE,TRUE,6,top,5,https://iili.io/24aLzB.jpg
+Jack Dempsey,Rocio octofasciata,10,75,80,6,8,55,TRUE,FALSE,1,mid-bottom,10,https://iili.io/24aZs1.png
+Loach - Kuhli,Pangio kuhlii,4,73,86,5.5,6.5,20,FALSE,TRUE,4,bottom,10,https://iili.io/24aQWP.jpg
+Loach - Yoyo,Botia lohachata,4,72,86,6,7.5,30,TRUE,TRUE,4,bottom,8,https://iili.io/24ab0g.jpg
+Minnow - White Cloud Mountain,Tanichthys alboneubes,1.5,64,72,6,8,10,FALSE,TRUE,6,top-mid-bottom,5,https://iili.io/24aDqF.jpg
+Molly - Balloon,Poecilia latipinna,3,68,82,7,7.8,30,FALSE,FALSE,1,top-mid,3,https://iili.io/24amga.png
+Molly - Black,Poecilia sphenops,3,68,82,7,7.8,30,FALSE,FALSE,1,top-mid,3,https://iili.io/24aydJ.jpg
+Molly - Dalmation,Poecilia sphenops,4.5,68,82,7,7.8,30,FALSE,FALSE,1,top-mid,3,https://iili.io/24c95v.jpg
+Molly - Gold Dust,Poecilia sphenops,5,68,82,7,8,30,FALSE,FALSE,1,top-mid,3,https://iili.io/24cHeR.png
+Molly - Lyretail,Poecilia latipinna,5,68,82,7,7.8,30,FALSE,FALSE,1,top-mid,3,https://iili.io/24cJbp.png
+Molly - Sailfin,Poecilia latipinna,5,68,82,7,7.8,30,FALSE,FALSE,1,top-mid,3,https://iili.io/24c3XI.png
+Oscar - Tiger,Astronotus ocellatus,16,74,81,6,8,65,TRUE,FALSE,1,mid,15,https://iili.io/24cq1n.png
+Oscar - Albino,Astronotus ocellatus,16,74,81,6,8,65,TRUE,FALSE,1,mid,15,https://iili.io/241j49.jpg
+Oscar - Red,Astronotus ocellatus,16,74,81,6,8,65,TRUE,FALSE,1,mid,15,https://iili.io/24cFst.jpg
+Oscar - Lemon,Astronotus ocellatus,16,74,81,6,8,65,TRUE,FALSE,1,mid,15,https://iili.io/24c2zN.jpg
+Otocinclus,Otocinclus vittatus,1.5,72,79,6.8,7.5,10,FALSE,TRUE,6,mid-bottom,3,https://iili.io/24cfqX.jpg
+Pencilfish - Dwarf,Nannostomus marginatus,1,70,82,5,8,10,FALSE,TRUE,10,top-mid,5,https://iili.io/24czml.png
+Pencilfish - Beckfords/Golden,Nannostomus beckfordi,1.5,70,82,5,8,15,FALSE,TRUE,10,top-mid,5,https://iili.io/24cBgs.png
+Pencilfish - Coral Red,Nannostomus mortenthaleri,1.25,70,82,5,8,15,FALSE,TRUE,10,top-mid,5,https://iili.io/24co7f.png
+Pencilfish - Shining,Nannostomus nitidus,1.25,70,82,5,8,15,FALSE,TRUE,10,top-mid,5,https://iili.io/24cndG.jpg
+Pencilfish - Two Stripe,Nannostomus digrammus,1.25,70,82,5,8,15,FALSE,TRUE,10,top-mid,5,https://iili.io/24cxe4.jpg
+Platy - Bleeding Heart,Xiphophorus maculatus,2.5,70,77,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24cTI2.jpg
+Platy - Neon Blue Wag,Xiphophorus maculatus,2.5,70,77,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24c71e.png
+Platy - Golden Comet,Xiphophorus maculatus,2.5,70,77,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24cAL7.jpg
+Platy - Coral Red,Xiphophorus maculatus,2.5,70,77,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24cTI2.jpg
+Platy - Hawaii,Xiphophorus variatus,3,72,75,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24c5B9.jpg
+Platy - Marigold,Xiphophorus variatus,3,72,75,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24ccdb.png
+Platy - Mickey Mouse,Xiphophorus maculatus,2.5,70,77,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24cYru.png
+Platy - Salt and Pepper,Xiphophorus maculatus,2.5,70,77,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24cl7j.png
+Platy - Sunset,Xiphophorus variatus,3,72,75,6.8,8,10,FALSE,TRUE,3,mid,3,https://iili.io/24c0kx.jpg
+Pleco - Bristlenose,Ancistrus cirrhosus,5,73,81,5.8,7.8,40,FALSE,FALSE,1,bottom,10,https://iili.io/24c1mQ.png
+Pleco - Clown,Panaqolus maccus,4,73,81,5.8,7.8,40,FALSE,FALSE,1,bottom,10,https://iili.io/24cGIV.jpg
+Pleco - Rubber Lip,Chaetostomus milesi,5,73,81,5.8,7.8,40,FALSE,FALSE,1,bottom,10,https://iili.io/24cMhB.jpg
+Rainbow Shark,Epalzeorhynchos frenatum,6,75,81,6.5,7.5,50,TRUE,FALSE,1,mid-bottom,5,https://iili.io/24c64n.jpg
+Rainbowfish - Axelrods,Chilatherina axelrodi,4,77,81,7.5,7.8,55,FALSE,TRUE,5,top-mid,5,https://iili.io/24cVLP.jpg
+Rainbowfish - Banded/Goyder River,Melanotaenia trifasciata,5,74,78,7,8,55,FALSE,TRUE,5,top-mid,6,https://iili.io/24cXB1.png
+Rainbowfish - Blue-Eyed Forktail/Furcata,Pseudomugil furcatus,2.5,76,82,6.5,7.5,30,FALSE,TRUE,6,top-mid,4,https://iili.io/24chEF.jpg
+Rainbowfish - Blue-Eyed Tenellus,Pseudomugil tenellus,2,76,82,6.5,7.5,20,FALSE,TRUE,6,top-mid,4,https://iili.io/24cjrg.png
+Rainbowfish - Boesmani,Melanotaenia boesemani,4,74,78,7,8,55,FALSE,TRUE,5,top-mid,6,https://iili.io/24cN2a.jpg
+Rainbowfish - Celebes,Marosatherina ladigesi,3,72,82,7,8,40,FALSE,TRUE,6,top-mid,4,https://iili.io/24cOYJ.jpg
+Rainbowfish - Emerald,Glossolepis wanamensis,4,72,82,6.5,8,55,FALSE,TRUE,5,top-mid,5,https://iili.io/24ckpR.png
+Rainbowfish - Gertrudes Blue Eye,Pseudomugil gertrudae,2,76,82,6.5,7.5,20,FALSE,TRUE,6,top-mid,4,https://iili.io/24cekv.jpg
+Rainbowfish - Lake Kutubu,Melanotaenia iacustris,5,74,78,7,8,55,FALSE,TRUE,5,top-mid,5,https://iili.io/24c8Ip.jpg
+Rainbowfish - Madagascar,Bedotia madagascarensis,4,72,89,4.5,7.5,55,FALSE,TRUE,5,top-mid,5,https://iili.io/24cUQI.jpg
+Rainbowfish - Neon,Melanotaenia praecox,2.5,74,78,7,8,30,FALSE,TRUE,5,top-mid,4,https://iili.io/24cShN.jpg
+Rainbowfish - Red,Glossolepis incisus,6,72,79,7,7.5,55,FALSE,TRUE,5,top-mid,5,https://iili.io/24crBt.jpg
+Rainbowfish - Threadfin,Iriatherina werneri,2,76,82,6.5,7.5,20,FALSE,TRUE,6,top-mid,4,https://iili.io/24c4EX.jpg
+Rainbowfish - Turquoise,Melanotaenia Lacustris,3.5,74,78,7,8,55,FALSE,TRUE,5,top-mid,6,https://iili.io/24ci2s.jpg
+Ram - Bolivian,Mikrogeophagus altispinosus,3,72,82,7,8,20,FALSE,FALSE,1,mid-bottom,6,https://iili.io/24csYG.png
+Ram - German Blue,Mikrogeophagus ramirezi,2,78,85,5,7,15,FALSE,FALSE,1,top-mid-bottom,2,https://iili.io/24cLvf.jpg
+Rasbora - Sarawak/Blue Line,Rasbora sarawakensis,2,72,80,6.8,7.8,20,FALSE,TRUE,6,top-mid,5,https://iili.io/24lJ3u.jpg
+Rasbora - Chili,Boraras brigittae,0.7,72,80,6.8,7.8,5,FALSE,TRUE,6,top-mid,5,https://iili.io/24ctTl.webp
+Rasbora - Brilliant,Rasbora einthovenii,3.5,72,80,6.8,7.8,30,FALSE,TRUE,6,top-mid,5,https://iili.io/24cQp4.jpg
+Rasbora - Harlequin,Trigonostigma heteromorpha,2,72,80,6.8,7.8,10,FALSE,TRUE,8,top-mid,5,https://iili.io/24cpC7.png
+Rasbora - Lambchop,Trigonostigma espei,1.5,72,80,6.8,7.8,10,FALSE,TRUE,6,top-mid,5,https://iili.io/24l94e.png
+Rasbora - Neon Green,Microdevario kubotai,0.75,72,80,6.8,7.8,10,FALSE,TRUE,6,top-mid,3,https://iili.io/24cyG9.jpg
+Rasbora - Scissortail,Rasbora trilineata,3.5,72,80,6.8,7.8,20,FALSE,TRUE,6,top-mid,5,https://iili.io/24ldYb.jpg
+Rasbora - Clown,Rasbora kalochroma,4,72,80,6.8,7.8,60,FALSE,TRUE,8,top-mid,5,https://iili.io/24cDj2.jpg
+Rasbora - Dwarf/Pygmy,Boraras maculatus,1,72,80,6.8,7.8,5,FALSE,TRUE,6,top-mid,3,https://iili.io/24cbQS.jpg
+Redtail Shark,Epalzeorhynhos bicolor,6,72,79,6,8,55,TRUE,FALSE,1,mid-bottom,8,https://iili.io/24l2vj.jpg
+Ropefish/Reedfish,Erpetoichthys calabaricus,15,72,82,6.5,8,55,FALSE,FALSE,1,bottom,10,https://iili.io/24lfjV.jpg
+Silver Dollar,Metynnis argenteus,6,75,82,5,7,75,FALSE,TRUE,5,mid,10,https://iili.io/24l3yx.jpg
+Swordtail - Painted,Xiphophorous hellerii,6,65,82,7,8.4,29,FALSE,TRUE,3,top-mid,3,https://iili.io/24lo6F.png
+Swordtail - Pineapple,Xiphophorous hellerii,6,65,82,7,8.4,29,FALSE,TRUE,3,top-mid,3,https://iili.io/24lnG1.jpg
+Swordtail - Marigold Wag,Xiphophorous hellerii,6,65,82,7,8.4,29,FALSE,TRUE,3,top-mid,3,https://iili.io/24lqZB.jpg
+Swordtail - Neon,Xiphophorous hellerii,6,65,82,7,8.4,29,FALSE,TRUE,3,top-mid,3,https://iili.io/24lCCP.jpg
+Swordtail - Black,Xiphophorous hellerii,6,65,82,7,8.4,29,FALSE,TRUE,3,top-mid,3,https://iili.io/24lKTQ.jpg
+Swordtail - Tuxedo Red,Xiphophorous hellerii,6,65,82,7,8.4,29,FALSE,TRUE,3,top-mid,3,https://iili.io/24lz3g.png
+Swordtail - White,Xiphophorous hellerii,6,65,82,7,8.4,29,FALSE,TRUE,3,top-mid,3,https://iili.io/24lIaa.png
+Tetra - Black Skirt/Black Widow,Gymnocorymbus ternetzi,2,68,79,6,8,10,FALSE,TRUE,6,mid,5,https://iili.io/24lT8J.jpg
+Tetra - Buenos Aires,Hyphessobrycon anisitsi,2.75,64,82,5.8,8.5,30,FALSE,TRUE,6,mid,3,https://iili.io/24luyv.jpg
+Tetra - Cardinal,Paracheirodon axelrodi,2,73,81,6,7,20,FALSE,TRUE,6,top-mid,4,https://iili.io/24lRuR.png
+Tetra - Congo,Phenacogrammus interrutpus,3,75,81,6,7,30,FALSE,TRUE,6,top-mid,4,https://iili.io/24l5jp.jpg
+Tetra - Ember,Hyphessobrycon amandae,0.75,68,82,5.5,7,10,FALSE,TRUE,6,mid,2,https://iili.io/24l7ZN.png
+Tetra - Lemon,Hyphessobrycon pulchripinnis,2,70,80,6,7.5,10,FALSE,TRUE,6,top-mid,6,https://iili.io/24lanI.jpg
+Tetra - Neon,Paracheirodon innesi,1.5,68,79,6,7,10,FALSE,TRUE,6,mid-bottom,5,https://iili.io/24lcGt.png
+Tetra - Penguin,Thayeria boehlkei,1.2,72,82,6,8,10,FALSE,TRUE,6,top-mid,3,https://iili.io/24ll6X.jpg
+Tetra - Rummy Nose,Hemigrammus rhodostomus,2,75,84,6.2,7,20,FALSE,TRUE,6,mid,6,https://iili.io/24l1Fn.png
+Tetra - X-ray,Pristella maxillaris,1.75,74,82,6,7.5,15,FALSE,TRUE,6,mid,4,https://iili.io/24lEas.jpg
