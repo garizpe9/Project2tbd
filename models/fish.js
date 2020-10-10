@@ -87,7 +87,7 @@ module.exports = function(sequelize, DataTypes) {
       len: [1],
       timestamps: false
     },
-    lifespan: {
+    image: {
       type: DataTypes.TEXT,
       allowNull: false,
       len: [1],
