@@ -1,5 +1,10 @@
 module.exports = function(sequelize, DataTypes) {
   const fish = sequelize.define("fish", {
+    group_name: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+      len: [1],
+    },
     common_name: {
       type: DataTypes.TEXT,
       allowNull: false,
@@ -78,6 +83,12 @@ module.exports = function(sequelize, DataTypes) {
     },
     lifespan: {
       type: DataTypes.INTEGER,
+      allowNull: false,
+      len: [1],
+      timestamps: false
+    },
+    lifespan: {
+      type: DataTypes.TEXT,
       allowNull: false,
       len: [1],
       timestamps: false
