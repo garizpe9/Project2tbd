@@ -97,6 +97,7 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   const fishtable = fish.build({ 
+    group_name: "Angelfish",
     common_name:"Angelfish-Albino",
     scientific_name: "Pterohphyllum Scarlare",
     max_size: 6,
@@ -109,7 +110,8 @@ module.exports = function(sequelize, DataTypes) {
     schooling: 0,
     min_group: 1,
     tank_level: "mid",
-    lifespan: 10
+    lifespan: 10,
+    image: "https://iili.io/2gWlOG.png"
   })
   fishtable.save()
   return fish;
