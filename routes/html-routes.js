@@ -28,21 +28,6 @@ module.exports = function(app) {
   app.get("/members", isAuthenticated, (req, res) => {
     res.sendFile(path.join(__dirname, "../public/members.html"));
   });
-
-//   // landing/welcome page (is "home" what we want?)
-//   app.get("/home" (req, res) => {
-
-//   });
-
-//   // tanks choice - user is asked to choose their tank size
-//   app.get("/tanks" (req, res) => {
-
-//   });
-
-//   // fish choice - user is presented with the lists of fish and the fish tank being built
-//   app.get("/fish" (req, res) => {
-
-//   })
 };
 
 
