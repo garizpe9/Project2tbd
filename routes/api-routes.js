@@ -1,6 +1,7 @@
 // Requiring our models and passport as we've configured it
 const db = require("../models");
 const passport = require("../config/passport");
+const { Op } = require("sequelize");
 
 module.exports = function (app) {
   // Using the passport.authenticate middleware with our local strategy.
@@ -57,4 +58,56 @@ module.exports = function (app) {
       res.json(fishPost);
     });
   });
+  //Step 1: Get tank size
+  app.get("/api/fish/:min_tank?", function(req,res){
+    db.fish.findAll({
+      where: {
+        min_tank: {
+          [Op.gte]: [ req.params.min_tank]
+        } 
+      }  
+    }).then(function (data) {
+      return res.json(data)
+    })
+  });
+
+//Step 2: Get tank size and fish
+app.get("/api/fish/:min_tank?/:group_name?", function(req,res){
+  db.fish.findAll({
+    where: {
+      [Op.and]:
+      [
+        {min_tank: 
+          {[Op.gte]: [req.params.min_tank]}},
+        {group_name: req.params.group_name}
+      ]
+      
+    }  
+  }).then(function (data) {
+    return res.json(data)
+  })
+});
+
+//Step 3: Get tank size and fish aggressive or not?
+app.get("/api/fish/:min_tank?/:group_name?/:aggressive?", function(req,res){
+  db.fish.findAll({
+    where: {
+      [Op.and]:
+      [
+        {min_tank: 
+          {[Op.gte]: [req.params.min_tank]}},
+        {group_name: req.params.group_name},
+        {aggressive: req.params.aggressive}
+      ]
+      
+    }  
+  }).then(function (data) {
+    return res.json(data)
+  })
+});
+
+
+
+
+
 };
