@@ -60,13 +60,17 @@ module.exports = function (app) {
   });
   //Step 1: Get tank size
   app.get("/api/fish/:min_tank?", function(req,res){
+    console.log("min tank")
+    console.log(req.params)
     db.fish.findAll({
       where: {
         min_tank: {
-          [Op.gte]: [ req.params.min_tank]
+          [Op.gte]: [parseInt (req.params.min_tank)]
+          // This line doesn't restrict fish by tank size^
         } 
       }  
     }).then(function (data) {
+      console.log(data);
       return res.json(data)
     })
   });
