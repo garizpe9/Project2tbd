@@ -53,14 +53,19 @@ $("#start").on("click", function getApi() {
 
 
 ///Variable Needs to be dynamic, below is just working code. Needs to pull 30 if 30 gal tank is selected and turned into functions 
+
 var tank = ""
 var fish = ""
 var isaggressivefish = ""
 
+// var tank = parseInt(20)
+// var fish = "Betta"
+// var isaggressivefish = false
+
+
 //Needs to be put into functions - urls should have value pulling from variables
 //Step 1 
 
-// })
 $.get(`/api/fish/${tank}`, function (data) {
     console.log(data);
 })
@@ -72,8 +77,6 @@ $.get(`/api/fish/${tank}/${fish}/${isaggressivefish}`, function (data) {
 })
 
 //Step 2
-
-// ///Step 3
 
 $(".gallons").on("click", function () {
     let size = $(this).data("gallons")
