@@ -2,19 +2,69 @@
 /* General Styles */
 /***********************************************************************************/
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: sans-serif;
-    font-size: 16px;
-    background: radial-gradient(
-        circle,
-        rgba(129, 250, 250, 1) 0%,
-        rgba(24, 73, 163, 1) 100%
-    );
+  font-family: sans-serif;
+  font-size: 16px;
+  background: radial-gradient(
+    circle,
+    rgba(129, 250, 250, 1) 0%,
+    rgba(24, 73, 163, 1) 100%
+  );
+}
+
+.gallons {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #7affff 5%, #689dd1 100%);
+  background-color: #7affff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+.gallons:hover {
+  background: linear-gradient(to bottom, #689dd1 5%, #7affff 100%);
+  background-color: #689dd1;
+}
+.gallons :active {
+  position: relative;
+  top: 1px;
+}
+
+.back {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #7affff 5%, #689dd1 100%);
+  background-color: #7affff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+.back:hover {
+  background: linear-gradient(to bottom, #689dd1 5%, #7affff 100%);
+  background-color: #689dd1;
+}
+.back :active {
+  position: relative;
+  top: 1px;
 }
 
 /***********************************************************************************/
@@ -22,229 +72,229 @@ body {
 /***********************************************************************************/
 
 nav {
-    background-color: transparent;
-    padding: 0, 15px;
+  background-color: transparent;
+  padding: 0, 15px;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-.menu, 
+.menu,
 .submenu {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .toggle {
-    order: 1;
-    font-size: 20px;
+  order: 1;
+  font-size: 20px;
 }
 
 .item {
-    padding: 10px;
+  padding: 10px;
 }
 
 .active .item {
-    display: block;
+  display: block;
 }
 
 .item a:hover,
 .item a:hover::after {
-    color: #ccc;
+  color: #ccc;
 }
 
 /***********************************************************************************/
 /* Mobile Menu */
 /***********************************************************************************/
 .menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu li a {
-    display: block;
-    padding: 15px 5px;
+  display: block;
+  padding: 15px 5px;
 }
 
 .menu li.subitem a {
-    padding: 15px;
+  padding: 15px;
 }
 
 .toggle {
-    order: 1;
-    font-size: 20px;
+  order: 1;
+  font-size: 20px;
 }
 
 .item {
-    order: 2;
-    width: 100%;
-    text-align: center;
-    display: none;
+  order: 2;
+  width: 100%;
+  text-align: center;
+  display: none;
 }
 
 .active .item {
-    display: block;
+  display: block;
 }
 
 /***********************************************************************************/
 /* Submenu */
 /***********************************************************************************/
 .submenu {
-    display: none;
+  display: none;
 }
 
 .submenu-active .submenu {
-    display: block;
+  display: block;
 }
 
 .has-submenu > a::after {
-    font-family: "Font Awesome 5 Free";
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 900;
-    content: "\f078";
-    color: white;
-    padding-left: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 900;
+  content: "\f078";
+  color: white;
+  padding-left: 5px;
 }
 
 .subitem a {
-    padding: 10px 15px;
+  padding: 10px 15px;
 }
 
 .submenu-active {
-    background-color: #111;
-    border-radius: 3px;
+  background-color: #111;
+  border-radius: 3px;
 }
 
 /***********************************************************************************/
 /* Desktop menu */
 /***********************************************************************************/
 @media all and (min-width: 700px) {
-    .item {
+  .item {
     order: 1;
     position: relavie;
     display: block;
     width: auto;
-    }
+  }
 
-    .submenu-active .submenu {
+  .submenu-active .submenu {
     display: block;
     position: absolute;
     left: 0;
     top: 68px;
     background: #111;
-    }
+  }
 
-    .toggle {
+  .toggle {
     display: none;
-    }
+  }
 
-    .submenu-active {
+  .submenu-active {
     border-radius: 0;
-    }
+  }
 }
 
 /***********************************************************************************/
 /* Other styles (to be categorized later) */
 /***********************************************************************************/
 .container {
-    display: flex;
+  display: flex;
 }
 
 h1 {
-    color: white;
-    text-align: center;
-    font-size: 75pt;
+  color: white;
+  text-align: center;
+  font-size: 75pt;
 }
 
 header {
-    padding: 100px;
-    background-image: url(../images/fishtank.jpg);
-    background-color: aquamarine;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  padding: 100px;
+  background-image: url(../images/fishtank.jpg);
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-tank {
-    display: flex;
-    flex-wrap: wrap;
-    width: 450px;
-    height: 250px;
-    background: lightblue;
-    border: 1px solid black;
-    margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 250px;
+  background: lightblue;
+  border: 1px solid black;
+  margin-right: 30px;
 }
 
 #start {
-    background-color: aqua;
-    border: none;
-    color: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-size: 18px;
-    position: absolute;
-    position: absolute;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-#tank-list{
-    background-color: aqua;
-    border: none;
-    color: black;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-size: 18px;
-    position: absolute;
-    position: absolute;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border: solid;
-    font-family: sans-serif;
+#tank-list {
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: solid;
+  font-family: sans-serif;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .fishcard {
-    display: inline;
-    border: 1px solid black;
-    margin-top: 5px;
-    background-color: aliceblue;
+  display: inline;
+  border: 1px solid black;
+  margin-top: 5px;
+  background-color: aliceblue;
 }
 
 .fishcard {
-    display: inline;
-    width: 18rem;
-    border: 1px solid black;
-    margin-top: 5px;
-    background-color: aliceblue;
+  display: inline;
+  width: 18rem;
+  border: 1px solid black;
+  margin-top: 5px;
+  background-color: aliceblue;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .column.fish-list {
-    flex: 20%;
-    padding-left: 30px;
+  flex: 20%;
+  padding-left: 30px;
 }
 
 .column.tank-container {
-    flex: 80%;
+  flex: 80%;
 }
 
 #instructions {
-    padding-left: 30px;
+  padding-left: 30px;
 }
