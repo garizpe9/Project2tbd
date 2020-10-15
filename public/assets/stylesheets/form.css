@@ -1,5 +1,14 @@
 /* Form */
 
+body {
+  background: rgb(129, 250, 250);
+  background: radial-gradient(
+    circle,
+    rgba(129, 250, 250, 1) 0%,
+    rgba(24, 73, 163, 1) 100%
+  );
+}
+
 form {
   text-align: center;
   width: 75%;
