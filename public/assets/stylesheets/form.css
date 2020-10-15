@@ -29,10 +29,6 @@ form {
   justify-content: center;
 }
 
-#titlefish {
-  color: black;
-}
-
 h2 {
   text-align: center;
 }
@@ -43,21 +39,29 @@ h2 {
   border-radius: 8px;
 }
 
-.hvr-grow {
+.btn {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #7affff 5%, #689dd1 100%);
+  background-color: #7affff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
   display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
 }
-
-.hvr-grow:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+.btn:hover {
+  background: linear-gradient(to bottom, #689dd1 5%, #7affff 100%);
+  background-color: #689dd1;
+}
+.btn :active {
+  position: relative;
+  top: 1px;
 }
 
 input {
@@ -80,18 +84,12 @@ input {
   to {
     left: 300px;
   }
-  /* 50% {left: 100px}
-    100% {left: 150px} */
 }
 
 span {
   display: flex;
   align-items: center;
 }
-
-/* .center {
-    text-align: center;
-} */
 
 /***********************************************************************************/
 /* General Styles */
