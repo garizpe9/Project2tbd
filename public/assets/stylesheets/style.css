@@ -121,6 +121,7 @@ a {
     .item {
     order: 1;
     position: relavie;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif"
     display: block;
     width: auto;
     }
@@ -131,6 +132,7 @@ a {
     left: 0;
     top: 68px;
     background: #111;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif"
     }
 
     .toggle {
@@ -152,6 +154,7 @@ a {
 h1 {
     color: white;
     text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif"
     font-size: 75pt;
 }
 
