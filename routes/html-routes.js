@@ -18,13 +18,10 @@ module.exports = function(app) {
     if (req.user) {
       res.redirect("/members");
     }
-    res.sendFile(path.join(__dirname, "../public/login.html"));
+    // res.sendFile(path.join(__dirname, "../public/login.html"));
+      res.sendFile(path.join(__dirname, "../public/test.html"));
 
   });
-
-  app.get("/signup", req, res => {
-    res.sendFile(path.join(__dirname, "../public/signup.html"))
-  })
 
   // Here we've add our isAuthenticated middleware to this route.
   // If a user who is not logged in tries to access this route they will be redirected to the signup page
@@ -32,14 +29,10 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/members.html"));
   });
 
-  // landing page
+  // landing/welcome page (is "home" what we want?)
   app.get("/", (req, res) => {
   res.render("index")
   });
-
-  // app.get("/form", (req, res) => {
-  //   res.sendFile(path.join(__dirname, "../public/form.html"))
-  // })
 
   app.get("/emailfish", (req, res) => {
   res.sendFile(path.join(__dirname,"../public/form.html"))
