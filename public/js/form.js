@@ -10,8 +10,9 @@ $("#start").on("click", function () {
         from: 'Aquarium4noobs@gmail.com',
         to: inputOne,
         subject: 'Fish for your aquarium!',
-        text: 'That was easy!' //needs to be 
+        text: 'That was easy!' 
       };
       $.post('/email', mailOptions, function(){
         console.log("Server received data")
     });
+}
