@@ -230,7 +230,7 @@ header {
 }
 
 #start {
-  background-color: aqua;
+  background-color: rgb(5, 255, 255);
   border: none;
   color: black;
   padding: 10px 10px;
@@ -243,6 +243,32 @@ header {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+#start {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #7affff 5%, #689dd1 100%);
+  background-color: #7affff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+}
+#start:hover {
+  background: linear-gradient(to bottom, #689dd1 5%, #7affff 100%);
+  background-color: #689dd1;
+}
+
+.start :active {
+  position: relative;
+  top: 1px;
 }
 
 #tank-list {
