@@ -67,6 +67,27 @@ body {
   top: 1px;
 }
 
+#welcome-text > h2 {
+  font-size: 30pt;
+}
+
+#welcome-text {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px;
+  /* text-align: center; */
+  align-items: center;
+}
+
+#start-div {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
 /***********************************************************************************/
 /* NavBar */
 /***********************************************************************************/
@@ -325,4 +346,9 @@ header {
 
 #instructions {
   padding-left: 30px;
+}
+
+img:hover {
+  opacity: 40%;
+  cursor: pointer;
 }
