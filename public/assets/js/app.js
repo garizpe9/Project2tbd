@@ -47,9 +47,6 @@ $("#start").on("click", function getApi() {
     })
 });
 
-
-///Variable Needs to be dynamic, below is just working code. Needs to pull 30 if 30 gal tank is selected and turned into functions 
-
 var gallonsLeft;
 var fish = "";
 var isaggressivefish = "";
@@ -165,7 +162,7 @@ function populateFish(data) {
                 // let fishImage = ""
                 fishImage = `<img src="${item.image}">`
                 gallons = `${item.min_tank}`;
-                let fishcard = `<div class="fishcard card" style="width: 18rem;">
+                let fishcard = `<section>
                 <img id="${item.min_tank}" src="${item.image}" width=250></img>
                 <div class="card-body">
                 <h5 class="card-title">${item.common_name}</h5>
@@ -174,37 +171,42 @@ function populateFish(data) {
                 Gallons required: ${item.min_tank} <br>
                 Click on the picture to add to tank</p>
                 </div>
-                </div>`
+                </section>`;
+                $("section").addClass("card fishcard");
                 fishtarget.empty();
                 typetarget.append($(fishcard));
             })
-            
-            $("img").on("click", function() {
+
+            $("img").on("click", function () {
                 // let fishImage = `<img src="${item.image}">`;
-                $(".main-tank").append($(this).css("width", "100px"));
-                gallons=parseInt($(this).attr("id"));
-                // console.log($(this).attr("id"));
-                gallonsLeft=gallonsLeft-gallons;
-                console.log("you have " + gallonsLeft + "gallons left");
+                $(".main-tank").append($(this).css({ "width": "100px", "height": "100px" }));
+                gallons = parseInt($(this).attr("id"));
+                gallonsLeft = gallonsLeft - gallons;
                 fishtarget.empty();
                 typetarget.empty();
-                if (gallonsLeft>4) {
-                $.get(`/api/fish/${gallonsLeft}`, function(data) {
-                    populateFish(data);
+                if (gallonsLeft > 4) {
+                    $.get(`/api/fish/${gallonsLeft}`, function (data) {
+                        $("#tankupdate").html(`You have ${gallonsLeft} gallons left in your tank!`)
+                        populateFish(data);
                     })
                 } else {
-                    console.log("your tank is full!")
+                    $("#instructions").html(`
+                    <h3> Congratulations, your fish tank is full! </h3>
+                    <p> When your fish tank is set up, head to your local fish store to buy your fish. </p>
+                    `)
+                    $("#tankupdate").empty();
                 }
             })
+
             let backBtn = `<button class="back">Back to List</button>`;
-            fishtarget.append($(backBtn).on("click", function() {
+            fishtarget.append($(backBtn).on("click", function () {
                 fishtarget.empty();
                 typetarget.empty();
-                $.get(`/api/fish/${gallonsLeft}`, function(data) {
-                populateFish(data);
+                $.get(`/api/fish/${gallonsLeft}`, function (data) {
+                    populateFish(data);
                 })
-            }))            
+            }))
         })
-        fishtarget.append(fc);      
+        fishtarget.append(fc);
     }
 }

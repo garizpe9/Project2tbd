@@ -120,7 +120,7 @@ a {
 @media all and (min-width: 700px) {
     .item {
     order: 1;
-    position: relative;
+    position: relavie;
     display: block;
     width: auto;
     }
@@ -166,13 +166,11 @@ header {
 
 .main-tank {
     display: flex;
-    position: absolute;
-    margin-left: 390px;
+    flex-wrap: wrap;
     width: 450px;
     height: 250px;
     background: lightblue;
     border: 1px solid black;
-    display: flex;
 }
 
 #start {
@@ -218,4 +216,29 @@ header {
     border: 1px solid black;
     margin-top: 5px;
     background-color: aliceblue;
+}
+
+.fishcard {
+    display: inline;
+    width: 18rem;
+    border: 1px solid black;
+    margin-top: 5px;
+    background-color: aliceblue;
+}
+
+.row {
+    display: flex;
+}
+
+.column.fish-list {
+    flex: 20%;
+    padding-left: 30px;
+}
+
+.column.tank-container {
+    flex: 80%;
+}
+
+#instructions {
+    padding-left: 30px;
 }
