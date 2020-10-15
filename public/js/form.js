@@ -33,38 +33,51 @@ for (let item of items) {
         item.addEventListener("keypress", toggleItem, false);
     }
 }
-
-// $("#button").on("click", function () {
-//     event.preventDefault()
-//     var inputOne = $("#input1").val()
-//     var inputTwo = $("#input2").val()
-//     console.log(inputOne, inputTwo)
-//     $.post('/email', mailOptions, function(){
-//         console.log("Server received data")
-
-// })
-// var mailOptions = {
-//     from: 'Aquarium4noobs@gmail.com',
-//     to: inputOne,
-//     subject: 'Fish for your aquarium!',
-//     text: 'That was easy!' 
-//   };
+$("#send-fish").on("click", function(event) {
+    event.preventDefault();
  
-// });
-var mailOptions = {
-    from: 'Aquarium4noobs@gmail.com',
-    to: 'veliaarizpe@gmail.com',
-    subject: 'Sending Email using Node.js',
-    text: 'That was easy!'
-  };
-
-$("#button").on("click", function () {
-    event.preventDefault()
-
-      $.post('/email', mailOptions, function(){
-        console.log("Server received data")
-        console.log (mailOptions)
-
+   // // make a newCharacter obj
+   var newfish= {
+       common_name: $("#commonname").val().trim(),
+       scientific_name: $("#sciname").val().trim(),
+       max_size: $("#max").val().trim(),
+      temp_low: $("#lowtemp").val().trim(),
+      temp_high: $("#hightemp").val().trim(),
+      ph_low: $("#lowph").val().trim(),
+      min_tank: $("#mintank").val().trim(),
+      aggressive: $("#aggressive").val().trim(),
+      schooling: $("#school").val().trim(),
+      min_group: $("#mingroup").val().trim(),
+     ph_high: $("#highph").val().trim(),
+      tank_level: $("#tanklevel").val().trim(),
+      lifespan: $("#life").val().trim()
+   };
+ 
+   // send an AJAX POST-request with jQuery
+   $.post("/api/newfish", newfish)
+     // on success, run this callback
+     .then(function(data) {
+       // log the data we found
+       console.log(data);
+   //     // tell the user we're adding a character with an alert window
+       alert("Thank you for your contribution!");
     });
-});
+ 
+   // empty each input box by replacing the value with an empty string
+   $("#commonname").val(""),
+   $("#sciname").val(""),
+   $("#max").val(""),
+   $("#lowtemp").val(""),
+   $("#hightemp").val(""),
+   $("#lowph").val(""),
+   $("#mintank").val(""),
+   $("#aggressive").val(""),
+   $("#school").val(""),
+   $("#mingroup").val(""),
+   $("#highph").val(""),
+   $("#tanklevel").val(""),
+   $("#life").val("")
+ 
+ 
+ });
 
