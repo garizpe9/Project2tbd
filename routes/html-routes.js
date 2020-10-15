@@ -35,7 +35,7 @@ module.exports = function(app) {
   });
 
   app.get("/emailfish", (req, res) => {
-  res.sendFile(path.join(__dirname,"../public/form.html"))
+  res.sendFile(path.join(__dirname, "../public/form.html"));
   });
 };
 
