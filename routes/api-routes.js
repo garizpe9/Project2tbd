@@ -3,6 +3,9 @@ const db = require("../models");
 const passport = require("../config/passport");
 const { Op } = require("sequelize");
 const sendMail = require ("../config/mail");
+// require('dotenv').config();
+// const nodemailer = require('nodemailer');
+// const mailGun = require('nodemailer-mailgun-transport')
 
 module.exports = function (app) {
   app.post("/api/login", passport.authenticate("local"), (req, res) => {
@@ -103,11 +106,44 @@ module.exports = function (app) {
 
   app.post("/email", function(req,res){
     sendMail(req.body.to, req.body.subject, req.body.text, function(err, data){
-    if (err) {
-      res.status(500).json({message: 'Internal Error'});
-    } else {
-      res.json({message: 'Email Sent!'})
-    }
-    });
-  })
+  if (err) {
+    res.status(500).json({message: 'Internal Error'});
+  } else {
+    res.json({message: 'Email Sent!'})
+  }
+});
+})
+
+  // app.post("/email", function(req,res){
+  //   const auth = {
+  //     auth: {
+  //         api_key: process.env.API,
+  //         domain: process.env.DOMAIN
+  //     }
+  //   };
+  //   const transporter = nodemailer.createTransport(mailGun(auth));
+  //   const sendMail = (email, subject, text, cb) =>{
+  //     const mailOptions = {
+  //         from: 'Aquarium4noobs@gmail.com',
+  //         to: email,
+  //         subject: subject,
+  //         text: text
+  //     };
+  //     transporter.sendMail(mailOptions, function(err, data){
+  //         if (err) {
+  //             cb(err, null);
+  //         } else {
+  //             cb(null, data);
+  //         }
+  //     });
+  //     sendMail(req.body.to, req.body.subject, req.body.text, function(err, data){
+  //       if (err) {
+  //         res.status(500).json({message: 'Internal Error'});
+  //       } else {
+  //         res.json({message: 'Email Sent!'})
+  //       }
+  //       });
+  // } 
+  // })
 };
+
