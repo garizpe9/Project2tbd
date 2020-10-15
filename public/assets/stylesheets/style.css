@@ -79,6 +79,7 @@ nav {
 a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .menu,
@@ -208,6 +209,7 @@ h1 {
   color: white;
   text-align: center;
   font-size: 75pt;
+  font-weight: bold;
 }
 
 header {
