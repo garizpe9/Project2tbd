@@ -1,27 +1,27 @@
 <button type="button" id="start">Click here to get started!</button>
 <div class="hidden main-container">
-<div class="tank-list">
-    <h3>Choose your tank size</h3>
-    <button class="gallons" data-gallons="25g">25 Gallons</button>
-    <button class="gallons" data-gallons="50g">50 Gallons</button>
-    <button class="gallons" data-gallons="100g">100 Gallons</button>
-</div>
+    <div class="tank-list">
+        <h3>Choose your tank size</h3>
+        <button class="gallons" data-gallons="25g">25 Gallons</button>
+        <button class="gallons" data-gallons="50g">50 Gallons</button>
+        <button class="gallons" data-gallons="100g">100 Gallons</button>
+    </div>
 
-<div class="fish-list">
-    <h3>Choose your favorite fish!</h3>
-    <p>You can plan the rest of your fish choices around your favorite fish.</p>
-    {{#each fish}}
+    <div class="fish-list">
+        <h3>Choose your favorite fish!</h3>
+        <p>You can plan the rest of your fish choices around your favorite fish.</p>
+        {{#each fish}}
         <div class="fish">
             <h4>{{common_name}}</h4>
             <img src="{{image}}">
         </div>
-    {{/each}}
-</div>
+        {{/each}}
+    </div>
 
-<div class="main-tank">
-    <h3>Main content div</h3>
-</div>
+    <div class="main-tank">
+        <h3>Main content div</h3>
+    </div>
 
-<div id="fish"></div>
-<div id="subtype"></div>
+    <div id="fish"></div>
+    <div id="subtype"></div>
 </div>
