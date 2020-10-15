@@ -56,7 +56,7 @@ module.exports = function (app) {
     db.fish.findAll({
       where: {
         min_tank: {
-          [Op.gte]: [parseInt (req.params.min_tank)]
+          [Op.lte]: [parseInt (req.params.min_tank)]
           // This line doesn't restrict fish by tank size^
         } 
       }  
@@ -73,7 +73,7 @@ module.exports = function (app) {
         [Op.and]:
         [
           {min_tank: 
-            {[Op.gte]: [req.params.min_tank]}},
+            {[Op.lte]: [req.params.min_tank]}},
           {group_name: req.params.group_name}
         ]
         
@@ -90,7 +90,7 @@ module.exports = function (app) {
         [Op.and]:
         [
           {min_tank: 
-            {[Op.gte]: [req.params.min_tank]}},
+            {[Op.lte]: [req.params.min_tank]}},
           {group_name: req.params.group_name},
           {aggressive: req.params.aggressive}
         ]
