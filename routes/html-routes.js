@@ -32,8 +32,11 @@ module.exports = function(app) {
   // landing/welcome page (is "home" what we want?)
   app.get("/", (req, res) => {
   res.render("index")
-});
+  });
 
+  app.get("/emailfish", (req, res) => {
+  res.sendFile(path.join(__dirname,"../public/form.html"))
+  });
 };
 
 
