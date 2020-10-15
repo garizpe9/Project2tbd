@@ -4,30 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="/assets/css/style.css" type="text/css" /> -->
+
+    <link rel="stylesheet" href="./form.css">
+    <title>Form</title>
 </head>
 
 <body>
 
-    <form>
-        <div>
-            <label>Login</label>
-            <input id="input1" class="login">
-        </div>
+    <header>
+        
+        <nav>
+            <h1>Aquarium4Noobs</h1>
+            <p>Plan your first community fish tank</p>
+            <ul class="menu">
+                <li class="item"><a href="/login">Login</a></li>
+                <li class="item"><a href="/signup">Signup</a></li>
+                <li class="item"><a href="/members">Members</a></li>
+                <li class="item has-submenu">
+                    <a tabindex="0">Explore Fish</a>
+                    <ul class="submenu">
+                        <li class="submitem"><a href="#">All Fish</a></li>
+                        <li class="submitem"><a href="#">Angelfish</a></li>
+                        <li class="submitem"><a href="#">Rainbowfish</a></li>
+                        <li class="submitem"><a href="#">Tetra</a></li>
+                    </ul>
+                </li>
+                <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div>
-            <label>Members</label>
-            <input id="input2" class="members">
-        </div>
+    <!-- <h2>TEST HEADER</h2> -->
+    <img id="fish" src="/public/assets/images/koonobori-ondas-color-ok_1.gif">
 
-        <div>
-            <button id="button">Submit</button>
-        </div>
-
-    </form>
+    <div id="form-div">
+        <form>
+            <label>Name</label>
+            <input id="name-input" class="text">
+            <br>
+            <label>Email</label>
+            <input id="email-input" class="email">
+            <br>
+            <button class="btn hvr-grow" id="send-fish"><span>Send Me My Fish!<img src="/public/assets/images/goldfish-background-png-goldfish-fish-png-transparent-png.png" width=30px></span></button>
+        </form>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="../js/form.js"></script>
+    <script src="form.js"></script>
 </body>
 
 </html>
