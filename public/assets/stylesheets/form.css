@@ -20,6 +20,10 @@ form {
   justify-content: center;
 }
 
+#titlefish {
+  color: black;
+}
+
 h2 {
   text-align: center;
 }
