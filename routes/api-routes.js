@@ -2,11 +2,6 @@
 const db = require("../models");
 const passport = require("../config/passport");
 const { Op } = require("sequelize");
-//const sendMail = require ("../config/mail");
-// require('dotenv').config();
-// const nodemailer = require('nodemailer');
-// const mailGun = require('nodemailer-mailgun-transport')
-
 module.exports = function (app) {
   app.post("/api/login", passport.authenticate("local"), (req, res) => {
     res.json({
@@ -104,46 +99,32 @@ module.exports = function (app) {
     })
   });
 
-//   app.post("/email", function(req,res){
-//     sendMail(req.body.to, req.body.subject, req.body.text, function(err, data){
-//   if (err) {
-//     res.status(500).json({message: 'Internal Error'});
-//   } else {
-//     res.json({message: 'Email Sent!'})
-//   }
-// });
-//})
+  app.get("/api/newfish/", function (req, res) {
+    db.emailfish.findAll({}).then(function (fishPost) {
+      res.json(fishPost);
+    });
+  });
 
-  // app.post("/email", function(req,res){
-  //   const auth = {
-  //     auth: {
-  //         api_key: process.env.API,
-  //         domain: process.env.DOMAIN
-  //     }
-  //   };
-  //   const transporter = nodemailer.createTransport(mailGun(auth));
-  //   const sendMail = (email, subject, text, cb) =>{
-  //     const mailOptions = {
-  //         from: 'Aquarium4noobs@gmail.com',
-  //         to: email,
-  //         subject: subject,
-  //         text: text
-  //     };
-  //     transporter.sendMail(mailOptions, function(err, data){
-  //         if (err) {
-  //             cb(err, null);
-  //         } else {
-  //             cb(null, data);
-  //         }
-  //     });
-  //     sendMail(req.body.to, req.body.subject, req.body.text, function(err, data){
-  //       if (err) {
-  //         res.status(500).json({message: 'Internal Error'});
-  //       } else {
-  //         res.json({message: 'Email Sent!'})
-  //       }
-  //       });
-  // } 
-  // })
+  app.post("/api/newfish", function(req, res) {
+    var newfish = req.body;
+    db.emailfish.create( {
+      common_name: newfish.common_name,
+      scientific_name: newfish.scientific_name,
+      max_size: newfish.max_size,
+      temp_low: newfish.temp_low,
+      temp_high: newfish.temp_low,
+      ph_low: newfish.ph_low,
+      min_tank: newfish.min_tank,
+      aggressive: newfish.aggressive,
+      schooling: newfish.schooling,
+      min_group: newfish.min_group,
+      ph_high: newfish.ph_high,
+      tank_level: newfish.tank_level,
+      lifespan: newfish.lifespan,
+      image: "null"
+    });
+    res.status(204).end();
+  });
+
 };
 
