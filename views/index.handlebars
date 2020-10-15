@@ -1,27 +1,35 @@
-<button type="button" id="start">Click here to get started!</button>
-<div class="hidden main-container">
-    <div class="tank-list">
-        <h3>Choose your tank size</h3>
-        <button class="gallons" data-gallons="25g">25 Gallons</button>
-        <button class="gallons" data-gallons="50g">50 Gallons</button>
-        <button class="gallons" data-gallons="100g">100 Gallons</button>
-    </div>
+<div id="start-div">
+    <button type="button" id="start">Click here to get started!</button>
+</div>
+
+<div id="tank-div" class="hidden">
+    <h3>Choose your tank size</h3>
+    <button class="gallons" data-gallons="25">25 Gallons</button>
+    <button class="gallons" data-gallons="50">50 Gallons</button>
+    <button class="gallons" data-gallons="100">100 Gallons</button>
+</div>
+
+<div class="hidden" id="main-container">
+    <h3>Now the fun part: Choose your fish!</h3>
+    <p>1. Click on a category to see the types of fish that will fit in your tank.</p>
+    <p>2. Click on the picture to add it to your tank.</p>
+    <p>Repeat until your tank is full!</p>
 
     <div class="fish-list">
-        <h3>Choose your favorite fish!</h3>
-        <p>You can plan the rest of your fish choices around your favorite fish.</p>
+        <div id="fish"></div>
+        <div id="subtype"></div>
         {{#each fish}}
         <div class="fish">
             <h4>{{common_name}}</h4>
-            <img src="{{image}}">
+            <p>Minimum number: {{min_group}}</p>
+            <p>Size: {{max_size}} inches</p>
+            <img src="{{image}}" width=150 height=150>
         </div>
         {{/each}}
     </div>
 
     <div class="main-tank">
-        <h3>Main content div</h3>
+        <h3>Your fish tank</h3>
     </div>
 
-    <div id="fish"></div>
-    <div id="subtype"></div>
 </div>
