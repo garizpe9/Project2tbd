@@ -16,23 +16,23 @@ The app uses node packages express, handlebars, mysql, and sequlize. It uses an 
 
 ## Screenshots
 When the user opens the app, they are prompted with "Click here to start!" which leads them to the app's features.
-<img src="./img/img1.jpg">
+<img src="./img1.jpg">
 The user is then given a choice of three sizes of fish tanks, organized by gallon amount.
-<img src="./img/img2.jpg">
+<img src="./img2.jpg">
 After choosing their preferred fish tank size, the user is shown several types of fish to choose from. Depending on the chosen size tank, the user may get shown different fish who prefer certain sizes tanks to thrive in.
 25 gallon fish array:
-<img src="./img/img3.jpg">
+<img src="./img3.jpg">
 100 gallon fish array:
-<img src="./img/img4.jpg">
+<img src="./img4.jpg">
 Once the user chooses the type of fish they would like, they are then presented with a selection of a subtype of that particular type of fish they had picked. Imporant details for each subtype of fish are below their pictures, such as how many gallons they need in the tank to survive, their size in inches, and how many in their school they must have to live happily. The user is also given a choice to go back to view the types of fish if they choose.
-<img src="./img/img5.jpg">
+<img src="./img5.jpg">
 Once the user has settled on a fish choice, they can add it to their virtual fish tank simply by clicking on the photo of the fish they choose. It is then added to their fish tank and the user is shown how many gallons are left in the tank before it is full.
-<img src="./img/img6.jpg">
+<img src="./img6.jpg">
 When the user has filled the tank with the maximum amount of fish that can thrive together in their chosen tank size, they are alerted with a message stating that the tank is full.
-<img src="./img/img7.jpg">
+<img src="./img7.jpg">
 Under the 'Suggest a Fish' tab on the right side of the header, the user is presented with a form where they may add and submit details for what kinds of fish they may like to see that they may not have seen on the website.  
-<img src="./img/fishform1.jpg">
-<img src="./img/fishform2.jpg">
+<img src="./fishform1.jpg">
+<img src="./fishform2.jpg">
 
 
 ## Installation
